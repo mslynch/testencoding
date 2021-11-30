@@ -1,3 +1,5 @@
+# Sys.setlocale(category = "LC_ALL", locale = "C.UTF-8")
+
 #' @export
 hello_fixed <- function() {
   x = iris
