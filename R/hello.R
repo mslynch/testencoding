@@ -1,4 +1,4 @@
-#' @export
+﻿#' @export
 hello_fixed <- function() {
   x = iris
   x$`Pétala` = 'Á'
