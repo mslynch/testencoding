@@ -2,3 +2,4 @@
 
 export(hello)
 export(hello_fixed)
+export(tabela.eventos_semana_mes_ano)

@@ -43,10 +43,3 @@ tabela.eventos_semana_mes_ano = function(resumida, visao_periodo = 'Semana', vis
   tabela
 }
 
-# resumida = tibble(
-#   Dia = '2021-01-01' %>% as.Date(), Semana = '2021-01-01' %>% as.Date(),
-#   Mês = '2021-01-01' %>% as.Date(), Operação = 'a', Evento = 'Bocejo', Total = 1, Veículos = 1
-#   )
-#
-# resumida %>%
-#   tabela.eventos_semana_mes_ano()
