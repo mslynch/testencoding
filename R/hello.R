@@ -1,8 +1,8 @@
-﻿#' @export
+#' @export
 hello_fixed <- function() {
   x = iris
-  x$`Pétala` = 'Á'
-  x$`Mácula` = 'Ê'
+  x$Pétala = 'Á'
+  x$Mácula = 'Ê'
 
   x
 }
@@ -11,7 +11,7 @@ hello_fixed <- function() {
 hello <- function() {
   x = iris
   x$Pétala = 'Á'
-  # x$Mácula = 'Ê'
+  x$Cáéíóúãõça = 'Çà'
 
   x
 }
